@@ -1,40 +1,41 @@
 import CartWidget from "./CartWidget";
+import { Link , NavLink } from "react-router-dom";
 import logo from "./images/Panaderia.png";
 
 const NavBar = () => {
     return (
-        <div className="container">
+        <div className="container" >
             <div className="row">
                 <div className="col">
                     <nav className="navbar navbar-expand-lg">
                         <div className="container-fluid">
-                            <a className="navbar-brand" href={"/"}>
+                            <Link className="navbar-brand" to={"/"}>
                                 <img src={logo} alt="Panaderia Los Sabores" width={"120"} />
-                            </a>
+                            </Link>
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
                             </button>
                             <div className="collapse navbar-collapse" id="navbarNav">
                                 <ul className="navbar-nav">
-                                    <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href={"/"}>
+                                    <li className="nav-item" id="menu">
+                                        <NavLink className="nav-link" activeClassName={"active"} to={"/"}>
                                             Inicio
-                                        </a>
+                                        </NavLink>
                                     </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href={"/panes"}>
+                                    <li className="nav-item" id="menu">
+                                        <NavLink className="nav-link" activeClassName={"active"} to={"/category/pan"}>
                                             Panaderia
-                                        </a>
+                                        </NavLink>
                                     </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href={"/pasteles"}>
+                                    <li className="nav-item" id="menu">
+                                        <NavLink className="nav-link" activeClassName={"active"} to={"/category/pasteles"}>
                                             Pasteleria
-                                        </a>
+                                        </NavLink>
                                     </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href={"/empanadas"}>
+                                    <li className="nav-item" id="menu">
+                                        <NavLink className="nav-link" activeClassName={"active"} to={"/category/empanadas"}>
                                             Empanadas
-                                        </a>
+                                        </NavLink>
                                     </li>
                                 </ul>
                             </div>

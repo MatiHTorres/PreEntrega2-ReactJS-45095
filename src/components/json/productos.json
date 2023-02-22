@@ -2,253 +2,256 @@
     {
         "id": 1,
         "nombre": "Hallulla",
-        "descripcion": "Pan hallula clasico",
+        "descripcion": "Pan hallula clasico.",
         "precio": 1800,
-        "stock": 10,
-        "categoria": "Pan",
-        "imagen": "./images/hallulla.webp"
+        "stock": 40,
+        "categoria": "pan",
+        "imagen": "../images/hallulla.webp"
     },
     {
         "id": 2,
-        "nombre": "Marraqueta",
-        "descripcion": "Pan marraqueta clasico",
-        "precio": 2000,
-        "stock": 10,
-        "categoria": "Pan",
-        "imagen": "./images/marraqueta.webp"
+        "nombre": "Empanaditas Pino Coctel",
+        "descripcion": "10 unidades de Empanaditas de pino al horno.",
+        "precio": 5500,
+        "stock": 20,
+        "categoria": "empanadas",
+        "imagen": "../images/empanada-pinococtel10.webp"
     },
     {
         "id": 3,
-        "nombre": "Molde blanco",
-        "descripcion": "Pan de Molde blanco",
-        "precio": 2200,
+        "nombre": "Queque Chips de Chocolate",
+        "descripcion": "Exquisito Queque de vainilla con chips de chocolate.",
+        "precio": 4000,
         "stock": 10,
-        "categoria": "Pan",
-        "imagen": "./images/molde-blanco.webp"
+        "categoria": "pasteles",
+        "imagen": "../images/queque-chipschocolate.webp"
     },
     {
         "id": 4,
-        "nombre": "Molde integral",
-        "descripcion": "Pan de molde integral",
-        "precio": 2500,
-        "stock": 10,
-        "categoria": "Pan",
-        "imagen": "./images/molde-integral.webp"
+        "nombre": "Marraqueta",
+        "descripcion": "Pan marraqueta clasico.",
+        "precio": 2000,
+        "stock": 40,
+        "categoria": "pan",
+        "imagen": "../images/marraqueta.webp"
     },
     {
         "id": 5,
-        "nombre": "Hotdog",
-        "descripcion": "Pan de hotdog clasico",
-        "precio": 3000,
-        "stock": 10,
-        "categoria": "Pan",
-        "imagen": "./images/hotdog.webp"
+        "nombre": "Empanada Pino",
+        "descripcion": "Empanada de pino horneada.",
+        "precio": 2500,
+        "stock": 20,
+        "categoria": "empanadas",
+        "imagen": "../images/empanada-pino.webp"
     },
     {
         "id": 6,
-        "nombre": "Hamburguesa",
-        "descripcion": "Pan de hamburgesa clasico",
-        "precio": 3000,
-        "stock": 10,
-        "categoria": "Pan",
-        "imagen": "./images/hamburguesa.webp"
-    },
-    {
-        "id": 7,
-        "nombre": "Multigranos",
-        "descripcion": "Pan multigranos integral",
-        "precio": 2800,
-        "stock": 10,
-        "categoria": "Pan",
-        "imagen": "./images/multigrano.webp"
-    },
-    {
-        "id": 8,
-        "nombre": "Baguette",
-        "descripcion": "Pan baguette clasico",
-        "precio": 1800,
-        "stock": 10,
-        "categoria": "Pan",
-        "imagen": "./images/baguette.webp"
-    },
-    {
-        "id": 9,
-        "nombre": "Croissant",
-        "descripcion": "Croissant clasico",
-        "precio": 1800,
-        "stock": 10,
-        "categoria": "Pasteles",
-        "imagen": "./images/croissant.webp"
-    },
-    {
-        "id": 10,
-        "nombre": "Ciabatta",
-        "descripcion": "Pan ciabatta clasico",
-        "precio": 1800,
-        "stock": 10,
-        "categoria": "Pan",
-        "imagen": "./images/ciabatta.webp"
-    },
-    {
-        "id": 11,
-        "nombre": "Ciabatta integral",
-        "descripcion": "Pan ciabatta integral",
-        "precio": 2000,
-        "stock": 10,
-        "categoria": "Pan",
-        "imagen": "./images/ciabatta-integral.webp"
-    },
-    {
-        "id": 12,
-        "nombre": "Ciabatta larga",
-        "descripcion": "Pan ciabatta larga",
-        "precio": 2300,
-        "stock": 10,
-        "categoria": "Pan",
-        "imagen": "./images/ciabatta-larga.webp"
-    },
-    {
-        "id": 13,
-        "nombre": "Empanada Champiñon Queso",
-        "descripcion": "Empanada de horno, champiñon queso",
-        "precio": 2200,
-        "stock": 10,
-        "categoria": "Empanadas",
-        "imagen": "./images/empanada-champiñonqueso.webp"
-    },
-    {
-        "id": 14,
-        "nombre": "Empanada Jamon Queso",
-        "descripcion": "Empanada de horno , jamon queso",
-        "precio": 2200,
-        "stock": 10,
-        "categoria": "Empanadas",
-        "imagen": "./images/empanada-jamonqueso.webp"
-    },
-    {
-        "id": 15,
-        "nombre": "Empanada Napolitana",
-        "descripcion": "Empanada de horno, napolitana",
-        "precio": 2000,
-        "stock": 10,
-        "categoria": "Empanadas",
-        "imagen": "./images/empanada-napolitana.webp"
-    },
-    {
-        "id": 16,
-        "nombre": "Empanada Pino Aji",
-        "descripcion": "Empanada de horno, pino aji",
-        "precio": 2500,
-        "stock": 10,
-        "categoria": "Empanadas",
-        "imagen": "./images/empanada-pino-aji.webp"
-    },
-    {
-        "id": 17,
-        "nombre": "Empanada de Pino, Frita",
-        "descripcion": "Empanada frita de pino",
-        "precio": 2200,
-        "stock": 10,
-        "categoria": "Empanadas",
-        "imagen": "./images/empanada-pino-frita.webp"
-    },
-    {
-        "id": 18,
-        "nombre": "Empanada Pino",
-        "descripcion": "Empanada de horno , pino",
-        "precio": 2500,
-        "stock": 10,
-        "categoria": "Empanadas",
-        "imagen": "./images/empanada-pino.webp"
-    },
-    {
-        "id": 19,
-        "nombre": "Empanaditas Pino Coctel",
-        "descripcion": "10 Empanaditas de pino al horno",
-        "precio": 5500,
-        "stock": 10,
-        "categoria": "Empanadas",
-        "imagen": "./images/empanada-pinococtel10.webp"
-    },
-    {
-        "id": 20,
-        "nombre": "Empanada Queso Frita",
-        "descripcion": "empanada frita de queso",
-        "precio": 2000,
-        "stock": 10,
-        "categoria": "Empanadas",
-        "imagen": "../images/empanada-queso-frita.webp"
-    },
-    {
-        "id": 21,
-        "nombre": "Empanaditas Queso Coctel",
-        "descripcion": "10 Empanaditas de queso al horno",
-        "precio": 5000,
-        "stock": 10,
-        "categoria": "Empanadas",
-        "imagen": "../images/empanada-quesococtel10.webp"
-    },
-    {
-        "id": 22,
-        "nombre": "Berlin Crema",
-        "descripcion": "Berlin relleno de crema pastelera",
-        "precio": 1200,
-        "stock": 10,
-        "categoria": "Pasteles",
-        "imagen": "../images/berlin-crema.webp"
-    },
-    {
-        "id": 23,
-        "nombre": "Berlin Manjar",
-        "descripcion": "Berlin relleno de manjar",
-        "precio": 1200,
-        "stock": 10,
-        "categoria": "Pasteles",
-        "imagen": "../images/berlin-manjar.webp"
-    },
-    {
-        "id": 24,
         "nombre": "Calzones Rotos",
-        "descripcion": "5 Calzones rotos tradicionales",
+        "descripcion": "5 unidades de Calzones rotos tradicionales con azucar flor.",
         "precio": 2400,
-        "stock": 10,
-        "categoria": "Pasteles",
+        "stock": 25,
+        "categoria": "pasteles",
         "imagen": "../images/calzonroto.webp"
     },
     {
-        "id": 25,
-        "nombre": "Cuchuflis",
-        "descripcion": "5 Cuchuflis bañados en chocolate y rellenos de manjar",
-        "precio": 1800,
-        "stock": 10,
-        "categoria": "Pasteles",
-        "imagen": "../images/cuchufli.webp"
+        "id": 7,
+        "nombre": "Molde Blanco",
+        "descripcion": "Suave Pan de Molde clasico blanco.",
+        "precio": 2200,
+        "stock": 18,
+        "categoria": "pan",
+        "imagen": "../images/molde-blanco.webp"
     },
     {
-        "id": 26,
-        "nombre": "Medialunas",
-        "descripcion": "3 Medialunas de masa hojaldrada",
-        "precio": 3200,
+        "id": 8,
+        "nombre": "Molde integral",
+        "descripcion": "Suave Pan de molde integral.",
+        "precio": 2500,
         "stock": 10,
-        "categoria": "Pasteles",
+        "categoria": "pan",
+        "imagen": "../images/molde-integral.webp"
+    },
+    {
+        "id": 9,
+        "nombre": "Medialunas",
+        "descripcion": "3 unidades de Medialunas de masa hojaldrada.",
+        "precio": 3200,
+        "stock": 15,
+        "categoria": "pasteles",
         "imagen": "../images/medialuna.webp"
     },
     {
-        "id": 27,
-        "nombre": "Mini Pie de Limon",
-        "descripcion": "Pastelito de pie de limon",
-        "precio": 1500,
-        "stock": 10,
-        "categoria": "Pasteles",
-        "imagen": "./images/mini-piedelimon.webp"
+        "id": 10,
+        "nombre": "Hotdog",
+        "descripcion": "Exquisito Pan de hotdog clasico.",
+        "precio": 3000,
+        "stock": 22,
+        "categoria": "pan",
+        "imagen": "../images/hotdog.webp"
     },
     {
-        "id": 28,
-        "nombre": "Queque de Chips de Chocolate",
-        "descripcion": "Queque de vainilla con chips de chocolate",
-        "precio": 4000,
+        "id": 11,
+        "nombre": "Hamburguesa",
+        "descripcion": "Exquisito Pan de hamburgesa clasico.",
+        "precio": 3000,
+        "stock": 24,
+        "categoria": "pan",
+        "imagen": "../images/hamburguesa.webp"
+    },
+    {
+        "id": 12,
+        "nombre": "Multigranos",
+        "descripcion": "Crujiente Pan de multigranos integral.",
+        "precio": 2800,
         "stock": 10,
-        "categoria": "Pasteles",
-        "imagen": "./images/queque-chipschocolate.webp"
+        "categoria": "pan",
+        "imagen": "../images/multigrano.webp"
+    },
+    {
+        "id": 13,
+        "nombre": "Empanada Queso Frita",
+        "descripcion": "Deliciosa Empanada frita de queso",
+        "precio": 2000,
+        "stock": 10,
+        "categoria": "empanadas",
+        "imagen": "../images/empanada-queso-frita.webp"
+    },
+    {
+        "id": 14,
+        "nombre": "Baguette",
+        "descripcion": "Crujiente Pan baguette clasico.",
+        "precio": 1800,
+        "stock": 14,
+        "categoria": "pan",
+        "imagen": "../images/baguette.webp"
+    },
+    {
+        "id": 15,
+        "nombre": "Croissant",
+        "descripcion": "Frescos Croissants clasicos.",
+        "precio": 1800,
+        "stock": 25,
+        "categoria": "pasteles",
+        "imagen": "../images/croissant.webp"
+    },
+    {
+        "id": 16,
+        "nombre": "Ciabatta",
+        "descripcion": "Pan ciabatta clasico.",
+        "precio": 1800,
+        "stock": 10,
+        "categoria": "pan",
+        "imagen": "../images/ciabatta.webp"
+    },
+    {
+        "id": 17,
+        "nombre": "Empanada Napolitana",
+        "descripcion": "Exquisita Empanada de horno napolitana.",
+        "precio": 2000,
+        "stock": 20,
+        "categoria": "empanadas",
+        "imagen": "../images/empanada-napolitana.webp"
+    },
+    {
+        "id": 18,
+        "nombre": "Ciabatta integral",
+        "descripcion": "Crujiente Pan ciabatta integral.",
+        "precio": 2000,
+        "stock": 10,
+        "categoria": "pan",
+        "imagen": "../images/ciabatta-integral.webp"
+    },
+    {
+        "id": 19,
+        "nombre": "Ciabatta larga",
+        "descripcion": "Crujiente Pan ciabatta larga",
+        "precio": 2300,
+        "stock": 16,
+        "categoria": "pan",
+        "imagen": "../images/ciabatta-larga.webp"
+    },
+    {
+        "id": 20,
+        "nombre": "Empanada Champiñon Queso",
+        "descripcion": "Exquisita Empanada de horno de champiñon queso",
+        "precio": 2200,
+        "stock": 12,
+        "categoria": "empanadas",
+        "imagen": "../images/empanada-champiñonqueso.webp"
+    },
+    {
+        "id": 21,
+        "nombre": "Empanada Jamon Queso",
+        "descripcion": "Exquisita Empanada de horno de jamon queso",
+        "precio": 2200,
+        "stock": 15,
+        "categoria": "empanadas",
+        "imagen": "../images/empanada-jamonqueso.webp"
+    },
+    
+    {
+        "id": 22,
+        "nombre": "Empanada Pino Aji",
+        "descripcion": "Exquisita Empanada de horno de pino aji",
+        "precio": 2500,
+        "stock": 15,
+        "categoria": "empanadas",
+        "imagen": "../images/empanada-pino-aji.webp"
+    },
+    {
+        "id": 23,
+        "nombre": "Empanada de Pino, Frita",
+        "descripcion": "Exquisita Empanada frita de pino",
+        "precio": 2200,
+        "stock": 10,
+        "categoria": "empanadas",
+        "imagen": "../images/empanada-pino-frita.webp"
+    },
+
+    {
+        "id": 24,
+        "nombre": "Empanaditas Queso Coctel",
+        "descripcion": "10 unidades de Empanaditas de queso al horno",
+        "precio": 5000,
+        "stock": 20,
+        "categoria": "empanadas",
+        "imagen": "../images/empanada-quesococtel10.webp"
+    },
+    {
+        "id": 25,
+        "nombre": "Berlin Crema",
+        "descripcion": "Delicioso Berlin relleno de crema pastelera",
+        "precio": 1200,
+        "stock": 15,
+        "categoria": "pasteles",
+        "imagen": "../images/berlin-crema.webp"
+    },
+    {
+        "id": 26,
+        "nombre": "Berlin Manjar",
+        "descripcion": "Delicioso Berlin relleno de manjar",
+        "precio": 1200,
+        "stock": 15,
+        "categoria": "pasteles",
+        "imagen": "../images/berlin-manjar.webp"
+    },
+    {
+        "id": 27,
+        "nombre": "Cuchuflis",
+        "descripcion": "5 unidades de Cuchuflis bañados en chocolate y rellenos de manjar",
+        "precio": 1800,
+        "stock": 30,
+        "categoria": "pasteles",
+        "imagen": "../images/cuchufli.webp"
+    },
+    
+    {
+        "id": 28,
+        "nombre": "Mini Pie de Limon",
+        "descripcion": "Exquisito Pastelito de pie de limon individual",
+        "precio": 1500,
+        "stock": 20,
+        "categoria": "pasteles",
+        "imagen": "../images/mini-piedelimon.webp"
     }
 ]

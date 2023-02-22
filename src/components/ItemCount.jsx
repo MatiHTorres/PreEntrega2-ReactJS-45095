@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
 const ItemCount = ({stock}) => {
     const [items,setItems] = useState(1);
@@ -23,8 +23,12 @@ const ItemCount = ({stock}) => {
         }  
     }
 
+    useEffect (() => {
+        setItemStock(stock);
+    },[stock]);
+
     return (
-        <div className="container">
+        <div className="container text-center">
             <div className="row my-1">
                 <div className="col">
                     <div className="btn-group">
